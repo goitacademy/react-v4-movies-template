@@ -5,7 +5,8 @@
 ## Що вже є в шаблоні
 
 - проєкт на Vite: React, TypeScript, React Compiler, ESLint;
-- встановлені `modern-normalize`, `clsx`, `lucide-react` і `sonner`; у `src/main.tsx` підключено `modern-normalize` і глобальні стилі `src/global.css`;
+- встановлені `modern-normalize`, `clsx`, `lucide-react` і `sonner`; у `src/main.tsx` підключено `modern-normalize` і глобальні стилі `src/index.css`;
+- налаштовано аліас `@/` для папки `src`: імпорти з інших папок пиши через `@/` (`import type { Movie } from "@/types/movie"`), а файли з тієї ж папки — відносним шляхом `./`;
 - компонент `App` у `src/components/App/App.tsx`;
 - готові стилі всіх компонентів у файлах `.module.css` у папках `src/components`;
 - файл `.env.example`; `.env` уже додано в `.gitignore`.
